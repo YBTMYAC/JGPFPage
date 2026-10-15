@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid py-5 text-start text-sm-center " style="background-color: #a5bfbf;">
+        <h1 class="display-5 fw-bold">BabylonJS demonstrator</h1>
+        <p class="col-md-8 fs-4">Five 3D scenes</p>
+    </div>
+
+    <nav class="navbar bg-body-tertiary navbar-expand-lg bg-dark
+      border-bottom border-body" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/icon.png" alt="Bootstrap" width="30" height="24" class="d-inline-block align-text-top">
+                Bootstrap
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Design</a>
+                    <a class="nav-link" href="#">Play Game</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </div>
+
+                <span class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: antiquewhite;">
+                        3D scenes
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Element1/index.html">Scene1</a></li>
+                        <li><a class="dropdown-item" href="Element2/index.html">Scene2</a></li>
+                        <li><a class="dropdown-item" href="Element3/index.html">Scene3</a></li>
+                        <li><a class="dropdown-item" href="Element4/index.html">Scene4</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="Element5/index.html">Scene5</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Fortnite</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan nibh et quam finibus
+                    fringilla. Sed eleifend lorem neque, eget volutpat lacus sagittis scelerisque. Nam fermentum erat
+                    eget diam dictum convallis.</p>
+                <p>Etiam eget lacus nisl. Integer urna nibh, condimentum ac consectetur ac, condimentum et nunc.
+                    Curabitur tristique, diam non dignissim rutrum, massa tortor commodo mi, et volutpat justo erat sit
+                    amet nisl. Integer accumsan ac lacus vitae viverra. Vivamus nec velit at lacus tincidunt aliquet at
+                    vitae enim. Sed sit amet elementum velit, eget sollicitudin quam. Aliquam erat volutpat.
+                    Pellentesque feugiat augue sed purus lacinia sodales. Etiam tristique ipsum et lacus egestas, vitae
+                    vulputate odio euismod.</p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Ratchet & Clank</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non nibh dolor. Maecenas a consectetur
+                    dui. Aliquam aliquam ut massa tempus vestibulum. Sed mauris ligula, ornare et aliquet id, venenatis
+                    vitae erat. Praesent a metus pretium, efficitur arcu vitae, sollicitudin erat. Phasellus a ante non
+                    arcu maximus hendrerit.</p>
+                <p>Sed dictum odio id magna pretium tincidunt. Integer vel euismod ex, fermentum vestibulum elit.
+                    Maecenas mattis at quam ut pharetra.</p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Splatoon</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia mi ac neque fermentum,
+                    eleifend pellentesque mauris consequat. Donec eget sem fermentum, semper nisi id, congue erat.
+                    Pellentesque placerat at leo eu malesuada. Curabitur eget finibus odio, a euismod enim. Nunc quis
+                    lectus aliquam leo tincidunt efficitur eu vel mi. Integer eu laoreet leo. Suspendisse potenti.
+                    Curabitur mattis nunc nec vehicula feugiat. Aenean congue risus mi, quis sodales odio tempus non.
+                    Fusce eu ligula risus.</p>
+                <p>Ut ultricies, ligula iaculis faucibus tristique, sapien justo finibus odio, in pellentesque orci
+                    risus in magna. Phasellus laoreet orci non imperdiet luctus. Maecenas ac dignissim purus. Ut lorem
+                    dolor, vestibulum ac dolor ac, interdum ultricies lorem. Donec mi velit, auctor a odio at, rutrum
+                    tincidunt mauris. Morbi nec ante in ex dapibus pulvinar at tempus mauris. Etiam ut consectetur nisi.
+                    Nam vel lacinia tellus.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/fortnite.jpg" class="d-block w-100" alt="fortnite image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="background-color: black">Fortnite"</h5>
+                    <p style="background-color: black">A game by Epic Games</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/ratchetandclank.jpg" class="d-block w-100" alt="ratchet and clank image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="background-color: black">Ratchet and Clank"</h5>
+                    <p style="background-color: black">A game by Insomniac Games</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/splatoon3.jpg" class="d-block w-100" alt="splatoon 3 image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="background-color: black">Splatoon 3"</h5>
+                    <p style="background-color: black">A game by Nintendo</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="assets/icon.jpg" class="card-img-top" alt="assets/icon.jpg">
+        <div class="card-body">
+            <h5 class="card-title">Callum Boyd</h5>
+            <p class="card-text"> Callum Boyd is a student at UWS and likes to 3D model and create games.</p>
+            <a href="https://bbc.co.uk" class="btn btn-primary">Go to BBC News</a>
+        </div>
+    </div>
+
+
+</body>
+</body>
+
+</html>
